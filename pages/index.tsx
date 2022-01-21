@@ -14,56 +14,65 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Rahandi Noor Pasha
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          <p>
+            <a href="mailto:rahandinoor@gmail.com">rahandinoor@gmail.com</a>
+            <br></br>
+            <a href="https://linkedin.com/in/rahandi">linkedin.com/in/rahandi</a>
+            <br></br>
+            <a href="https://github.com/Rahandi>">github.com/Rahandi</a>
+          </p>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+          <div className={styles.section}>
+            <h2>Experience</h2>
+            <p className={styles.card}>
+              <h3>Software Development Engineer in Test</h3>
+              <h5>Traveloka, Indonesia, November 2021 - Present</h5>
+              abc
             </p>
-          </a>
+            <p className={styles.card}>
+              <h3>Devops Engineer</h3>
+              <h5>Prixa.ai, Indonesia, May 2021 - November 2021</h5>
+              acbasca
+            </p>
+            <p className={styles.card}>
+              <h3>Software Engineer</h3>
+              <h5>Prixa.ai, Indonesia, March 2020 - May 2021</h5>
+              abc
+            </p>
+          </div>
+          <div className={styles.section}>
+            <h2>Skills</h2>
+            <p className={styles.card}>
+              <div>
+                <h3>Languages</h3>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Experienced</th>
+                      <th>Familiar</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Typescript</td>
+                      <td>HTML</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </p>
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        blablabla
       </footer>
     </div>
   )
